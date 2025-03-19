@@ -1,1 +1,2 @@
-|code file | output |
+| code file | output |
+|-----------|--------|
