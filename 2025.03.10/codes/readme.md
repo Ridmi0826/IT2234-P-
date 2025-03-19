@@ -1,2 +1,3 @@
-codes
+codes of the first day
+
 
