@@ -1,1 +1,1 @@
-This folder contains the codes of the third day
+This folder contains the codes and outputs of the third day
