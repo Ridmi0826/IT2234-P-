@@ -231,7 +231,7 @@ db.students.find({age: {$eq: 25}})
 ```javascript
 db.students.find({skills: "MongoDb"})
 ```
-### Or:
+#### Or:
 
 ![22](https://github.com/user-attachments/assets/45169c4e-b963-4e9f-af32-acd2b1e11408)
 
@@ -263,9 +263,9 @@ db.students.find({degree: {$nin: ["IT"]}})
 ```javascript
 db.students.find().sort({gpa: 1})
 ```
-![42_1](https://github.com/user-attachments/assets/a4f2879c-59e9-4bc8-a4f0-ec5a174f3771)
-![42_2](https://github.com/user-attachments/assets/09e860f1-9e5a-4e35-a757-6a565b63ea36)
-![42_3](https://github.com/user-attachments/assets/1ba75716-939f-4649-ac96-ae4199dd510d)
+![42_1](https://github.com/user-attachments/assets/80dc2464-15ed-4939-90da-95aed2219b1c)
+![42_2](https://github.com/user-attachments/assets/cd964297-8f1a-4e6e-8cb3-0db61adabad2)
+![42_3](https://github.com/user-attachments/assets/5cb4d0f5-86ab-4624-b0b4-f1e67c1bf578)
 
 ---
 #### Sort by GPA (Descending):
