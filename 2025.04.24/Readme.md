@@ -298,7 +298,7 @@ db.students.find({degree: "IT", gender: "male"}).sort({gpa: 1})
 db.students.find({}, {regno: 1, name: 1}).limit(3)
 ```
 ---
-### Skip 1 and show next 4:
+### Skip 1 and show next 3:
 
 ![44](https://github.com/user-attachments/assets/6b009119-4cd6-4b7f-8119-d840c448d82f)
 
@@ -306,17 +306,10 @@ db.students.find({}, {regno: 1, name: 1}).limit(3)
 #### Using command lines
 
 ```javascript
-db.students.find().skip(1).limit(4)
+db.students.find().skip(1).limit(3)
 ```
 ---
 
-### 🧪 Playground - Try These Commands!
-```bash
-show databases
-use unidb
-db.students.find()
-db.students.find({age: {$gt: 25}})
-db.students.find({skills: {$in: ["MongoDb"]}})
-```
+
 
  
