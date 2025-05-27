@@ -1,6 +1,6 @@
 const express = require('express');
 const app =express();
-const port=3003;
+const port=3002;
 const mongoose = require('mongoose')
 const coursert= require('./routes/courseRoute')
 const studentrt= require('./routes/studentRoute')
