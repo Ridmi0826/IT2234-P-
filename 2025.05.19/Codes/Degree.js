@@ -1,19 +1,17 @@
 const mongoose = require('mongoose')
-const degreeSchema= new mongoose.Schema({
-    _id:{type:String,require:true},
+const degreeSchema = new mongoose.Schema({
+    _id:{type:String,require:true}, //define id by ourselves
     name:{type:String,require:true},
-    credits:{type:Number,require:true},
-    duration:{type:Number,require:true},
-    faculty:{type:String}
+    department:{type:String,require:true},
+    numberofyears:{type:Number,require:true}
 })
 
 const Degree = mongoose.model('degrees',degreeSchema)
-const BIT = new Degree({
-    _id:'FAS2021ICT',
-    name:'BSc in Information Technology',
-    credits:120,
-    duration:4,
-    faculty:'Applied Science'
+const ICT = new Degree({
+    _id:'FAS2021IT',
+    name:'B Sc in Information Technology',
+    department:'FAS',
+    numberofyears:3
 })
-BIT.save()
-module.exports=Degree
+ICT.save()
+module.exports = Degree
