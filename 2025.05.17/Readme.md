@@ -1,6 +1,6 @@
 # StudentApp
 
-### Installations
+## Installations
 
 ```bash
 npm init
@@ -26,13 +26,13 @@ npm install mongoose
 Creating database and collection
 ![7](https://github.com/user-attachments/assets/9b70b669-8f7e-4a7a-a0be-cd385b09607d)
 
-### GET methods
+## GET methods
 Get Courses
 ![9](https://github.com/user-attachments/assets/7326f7f5-972f-40cf-a820-49e4ef6ca522)
 
- ## Get a Course by Id
+ ### Get a Course by Id
 ![10](https://github.com/user-attachments/assets/a670deff-fe01-485c-a560-5ee9d88fc718)
 
-## Get a Course by course code
+### Get a Course by course code
 ![11](https://github.com/user-attachments/assets/e4f20a84-c954-47b3-8c83-90add5812656)
 
