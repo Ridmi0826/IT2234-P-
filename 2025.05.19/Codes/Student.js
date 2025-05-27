@@ -1,23 +1,21 @@
 const mongoose = require('mongoose')
-const studentSchema= new mongoose.Schema({
+const studentSchema = new mongoose.Schema({
     _id:{type:String,require:true},
     name:{type:String,require:true},
-    date_of_birth:{type:Date},
-    gender:{type:String},
+    age:{type:Number,require:true},
     degreeId:{
         type:String,
         require:true,
-        ref:'Degree'
+        ref:'degrees' //collection name
     }
 })
 
 const Student = mongoose.model('students',studentSchema)
-const kolins = new Student({
-    _id:'2021ICT01',
-    name:'Peter Kolins',
-    date_of_birth:'01-05-1995',
-    gender:'male',
-    degreeId:'FAS2021ICT'
+const kevin = new Student({
+    _id:'2021ict01',
+    name:'Kevin',
+    age:24,
+    degreeId:'FAS2021IT'
 })
-kolins.save()
-module.exports=Student
+//kevin.save()
+module.exports = Student
