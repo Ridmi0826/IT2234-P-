@@ -51,33 +51,4 @@ filterFun(res, Model, filter) — fetches filtered data from a model
 
 Used by both books and students routes for DRY (Don't Repeat Yourself) code.
 
-📦 Sample Data Models
-Book Model
-
-```js
-{
-  title: String,
-  genre: String,
-  copiesAvailable: Number,
-  nonLendableCopies: Number
-}
-```
-Student Model
-
-```js
-
-{
-  name: String,
-  year: Number,
-  unreturnedBooks: Number
-}
-```
-Borrow Model
-
-```js
-{
-  student: ObjectId,
-  book: ObjectId,
-  returned: { type: Boolean, default: false }
-}
-```
+ 
